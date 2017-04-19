@@ -1,7 +1,7 @@
 {
 
     "id": "write-0", 
-    "cmd": "time python write_mesos.py",
+    "cmd": "time python3 write_mesos.py",
     "cpus": 0.1,
     "mem": 10.0,
     "instances": 1,

@@ -1,0 +1,9 @@
+{
+    "id": "while-dan-0", 
+    "cmd": "bash while_dan.bash",
+    "cpus": 0.1,
+    "mem": 10.0,
+    "instances": 1
+}
+
+
