@@ -3,7 +3,11 @@
     "cmd": "bash while_dan.bash",
     "cpus": 0.1,
     "mem": 10.0,
-    "instances": 1
+    "instances": 1,
+    "uris": [
+        "https://raw.githubusercontent.com/Dauzy/Mesos_script/master/while_dan.bash"
+    ]
+
 }
 
 
