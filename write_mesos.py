@@ -1,5 +1,5 @@
 import sys,time
 
-for x in range(1,1000000):
+for x in range(1,100):
 	print("HOla Mesos %d" % (x))
 
