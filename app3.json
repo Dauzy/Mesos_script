@@ -1,0 +1,15 @@
+{
+
+    "id": "write-bash-0",
+    "cmd": "time bash write_bash.bash",
+    "cpus": 0.1,
+    "mem": 10.0,
+    "instances": 1,
+    "uris": [
+
+        "https://raw.githubusercontent.com/Dauzy/Mesos_script/master/write_bash.bash"
+
+    ]
+
+}
+
