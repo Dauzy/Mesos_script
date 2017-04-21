@@ -1,8 +1,8 @@
 {
-    "id": "write-2"
+    "id": "write-4",
     "cmd":"time bash otrowrite.bash",
-    "cpus": 5,
-    "mem": 10.0,
+    "cpus": 2.0,
+    "mem": 100.0,
     "instances": 2,
     "uris": [
 

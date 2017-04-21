@@ -1,10 +1,10 @@
 {
 
-    "id": "write-0", 
-    "cmd": "time python3 write_mesos.py",
-    "cpus": 0.1,
-    "mem": 10.0,
-    "instances": 1,
+    "id": "writepy-0", 
+    "cmd": "time python write_mesos.py",
+    "cpus": 1,
+    "mem": 100.0,
+    "instances": 3,
     "uris": [
 
         "https://raw.githubusercontent.com/Dauzy/Mesos_script/master/write_mesos.py"
