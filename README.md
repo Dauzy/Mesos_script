@@ -23,9 +23,48 @@ Dentro de la carpeta mandar  en consola el sig. comando
   2. ``` curl -X POST http://x.x.x.x:8080/v2/apps -d @app.json -H "Content-type: application/json" ``` 
 
 ## Ejecuciones
-  1. ``` Se imprimio en shell 1,000,000 de veces, local: 72seg, mesos: 21seg  ```
-  2. ``` Se imprimio en python 100,000  veces, local: 72seg, mesos: 21seg  ```
+###  1. Primera Prueba: 
+	Se ejecuto un script en python con 1,000,000 de escrituras en consola.
+Recursos:
+| CPU(s)        | Memoria       | Intancias    |
+|---------------|:-------------:|-------------:|
+| 1             | 100M          | 2            |
+
+Metricas:
+| Slaves        | Tiempo        |
+|---------------|:-------------:|
+| CLuster Mesos | 0.979s        |
+| local         | 48.057s       |
+	
+###  2. Segunda Prueba
+ 	Se ejecuto un script en bash con 1,000,000 de escrituras en un txt.
+Recursos:
+| CPU(s)        | Memoria       | Intancias    |
+|---------------|:-------------:|-------------:|
+| 2             | 100M          | 2            |
+
+Metricas:
+| Slaves        | Tiempo        | 
+|---------------|:-------------:|
+| CLuster Mesos | 21s           |
+| local         | 76s           |
+
+
+###  2. Tercera Prueba
+ 	Se ejecuto un script en bash con 10,000,000 de escrituras en un txt.
+Recursos:
+| CPU(s)        | Memoria       | Intancias    |
+|---------------|:-------------:|-------------:|
+| 2             | 100M          | 3            |
+
+Metricas:
+| Slaves        | Tiempo        | 
+|---------------|:-------------:|
+| CLuster Mesos | 49s           |
+| local         | 110s          |
   
-  
+## Conclusion
+El tiempo de ejecucion en mesos
+
 Listo!!
 
