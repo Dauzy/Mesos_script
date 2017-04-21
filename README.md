@@ -11,7 +11,7 @@ Se desplego un cluster de mesos, con 3 agentes(slaves) y un master
 | zebra stripes | are neat      |    $1 |
   
 | Slaves        | CPU(s)        | RAM    |
-|---------------|:-------------:|------ :|
+|---------------|:-------------:|-------:|
 | Andrea        | 4             | 6.3 GB |
 | Alejandro     | 4             | 6.3 GB |
 | Daniel        | 4             | 4.5 GB | 
