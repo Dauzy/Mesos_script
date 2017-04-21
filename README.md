@@ -4,6 +4,12 @@ Se desplego un cluster de mesos, con 3 agentes(slaves) y un master
 	
   Caracteristicas de los slaves.
   
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+  
 | Slaves        | CPU(s)        | RAM    |
 |---------------|:-------------:|------ :|
 | Andrea        | 4             | 6.3 GB |
