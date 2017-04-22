@@ -82,6 +82,3 @@ especificamos cuantos cpu(s), memoria ram asignar a dicho proceso, y en un
 host local el sistemas operativo asugna estos recursos a el proceso. Tambien
 cabe destacar que el proceso se ejecutara en los agentes asgnados. Mesos 
 es una herramienta que nos ayuda en el proceso de grandes tareas. :)
-
-Listo!!
-
