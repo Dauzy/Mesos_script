@@ -38,12 +38,15 @@ Metricas:
 	
 ###  2. Segunda Prueba
  	Se ejecuto un script en bash con 1,000,000 de escrituras en un txt.
+
 Recursos:
+
 | CPU(s)        | Memoria       | Intancias    |
 |---------------|:-------------:|-------------:|
 | 2             | 100M          | 2            |
 
 Metricas:
+
 | Slaves        | Tiempo        | 
 |---------------|:-------------:|
 | CLuster Mesos | 21s           |
@@ -52,12 +55,15 @@ Metricas:
 
 ###  2. Tercera Prueba
  	Se ejecuto un script en bash con 10,000,000 de escrituras en un txt.
+
 Recursos:
+
 | CPU(s)        | Memoria       | Intancias    |
 |---------------|:-------------:|-------------:|
 | 2             | 100M          | 3            |
 
 Metricas:
+
 | Slaves        | Tiempo        | 
 |---------------|:-------------:|
 | CLuster Mesos | 49s           |
